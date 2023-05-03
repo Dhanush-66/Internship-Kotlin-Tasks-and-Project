@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun navigatetonextactivity(){
-        startActivity(Intent(applicationContext,before_login_page::class.java))
+        startActivity(Intent(applicationContext,PreLoginPageActivity::class.java))
         finish()
     }
     private fun setOnboardingItems(){
