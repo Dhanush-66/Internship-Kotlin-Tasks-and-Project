@@ -1,13 +1,13 @@
 package com.example.weatherintern
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import com.example.weatherintern.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.example.weatherintern.databinding.ActivitySplashScreenBinding
 
 
+@Suppress("DEPRECATION")
 class SplashScreenActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySplashScreenBinding
     private val SPLASH_SCREEN_TIMEOUT = 3000L
